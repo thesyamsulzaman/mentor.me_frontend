@@ -1,0 +1,95 @@
+/* ============================ */
+/* Import your font files here  */
+/* ============================ */
+
+@tailwind base;
+
+/* ============================ */
+/* Write your base styles here  */
+/* ============================ */
+
+/*--------------*/
+/* Pricing Card */
+/*--------------*/
+
+.card-content {
+  @apply hidden;
+}
+.card-tab.active {
+  @apply font-bold border-b-4 border-space-black;
+}
+
+@tailwind components;
+
+/* ================================= */
+/* Write your custom components here */
+/* ================================= */
+
+/*--------*/
+/* Button */
+/*--------*/
+
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+.btn:focus {
+  @apply outline-none shadow-outline;
+}
+.btn-black {
+  @apply bg-space-black text-white;
+}
+.btn-block {
+  @apply block w-full
+}
+
+.btn-black:hover {
+  @apply bg-black;
+}
+
+/*--------*/
+/* Forms  */
+/*--------*/
+
+.form-group {
+  @apply my-2;
+}
+.form-control {
+  @apply bg-white my-1 text-black block w-full px-3 py-2 appearance-none border border-gray-400 rounded;
+}
+.form-control:focus {
+  @apply outline-none;
+}
+
+/* ----- */
+/* Card  */
+/* ----- */
+
+.card {
+  @apply border border-gray-400;
+}
+
+.card-img {
+  @apply w-full object-cover;
+}
+
+.card-body {
+  @apply p-3 m-2;
+}
+
+.card-title {
+  @apply block my-2;
+}
+
+.card-text {
+  @apply block my-1;
+}
+
+/*-------*/
+/* Badge */
+/*-------*/
+
+.badge {
+  @apply px-2 py-1 rounded w-auto;
+}
+
+@tailwind utilities;

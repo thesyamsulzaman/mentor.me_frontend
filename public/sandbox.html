@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tailwind Component Sandbox</title>
+    <link rel="stylesheet" href="build/tailwind.css" />
+  </head>
+  <body>
+    <section
+      class="sandbox h-screen w-full bg-soft-white flex items-start justify-center"
+    >
+      <div
+        class="card pricing bg-white mt-4 md:mx-16 lg:mt-20 shadow-lg rounded"
+        style="min-width: 300px; max-width: 430px;"
+      >
+        <ul class="card-tabs flex text-center relative">
+          <li class="flex-1 relative px-6 py-5 border border-gray-400">
+            <a class="card-tab absolute inset-0 pt-2 active" href="tab-hourly"
+              >Hourly</a
+            >
+          </li>
+          <li class="flex-1 relative px-6 py-5 border border-gray-400">
+            <a class="card-tab absolute inset-0 pt-2" href="tab-weekly"
+              >Weekly</a
+            >
+          </li>
+          <li class="flex-1 relative px-6 py-5 border border-gray-400">
+            <a class="card-tab absolute inset-0 pt-2" href="tab-monthly"
+              >Monthly</a
+            >
+          </li>
+        </ul>
+        <div class="card-contents">
+          <div
+            class="card-content p-3 transition duration-500 ease-in-out block"
+            id="tab-hourly"
+          >
+            <div class="font-bold block flex justify-between">
+              <span class="">Price</span>
+              <span class="">$1</span>
+            </div>
+
+            <div class="my-2">
+              <p class="text-sm text-gray-700">
+                Hourly Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+              </p>
+            </div>
+
+            <div class="my-3">
+              <ul>
+                <li class="flex">
+                  <img src="assets/icons/check.svg" alt="" />
+                  <p class="ml-2 text-sm font-bold text-space-black">
+                    Snacks
+                  </p>
+                </li>
+                <li class="flex">
+                  <img src="assets/icons/check.svg" alt="" />
+                  <p class="ml-2 text-sm font-bold text-space-black">
+                    Laptop
+                  </p>
+                </li>
+                <li class="flex">
+                  <img src="assets/icons/check.svg" alt="" />
+                  <p class="ml-2 text-sm font-bold text-space-black">
+                    Wi-fi
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mt-3">
+              <button class="btn btn-black">Continue</button>
+            </div>
+          </div>
+
+          <div
+            class="card-content p-3 transition duration-500 ease-in-out"
+            id="tab-weekly"
+          >
+            <div class="font-bold block flex justify-between">
+              <span class="">Price</span>
+              <span class="">$30</span>
+            </div>
+
+            <div class="my-2">
+              <p class="text-sm text-gray-700">
+                Weekly Lorem ipsum dolor sit amet, consectetur adipisicing
+                consectetur adipisicing elit, sed do eiusmod elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+
+            <div class="my-3">
+              <ul>
+                <li class="flex">
+                  <img src="assets/icons/check.svg" alt="" />
+                  <p class="ml-2 text-sm font-bold text-space-black">
+                    Snacks
+                  </p>
+                </li>
+                <li class="flex">
+                  <img src="assets/icons/check.svg" alt="" />
+                  <p class="ml-2 text-sm font-bold text-space-black">
+                    Laptop
+                  </p>
+                </li>
+                <li class="flex">
+                  <img src="assets/icons/check.svg" alt="" />
+                  <p class="ml-2 text-sm font-bold text-space-black">
+                    Wi-fi
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mt-3">
+              <button class="btn btn-black">Continue</button>
+            </div>
+          </div>
+
+          <div
+            class="card-content p-3 transition duration-500 ease-in-out"
+            id="tab-monthly"
+          >
+            <div class="font-bold block flex justify-between">
+              <span class="">Price</span>
+              <span class="">$45</span>
+            </div>
+
+            <div class="my-2">
+              <p class="text-sm text-gray-700">
+                Monthly Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+              </p>
+            </div>
+
+            <div class="my-3">
+              <ul>
+                <li class="flex">
+                  <img src="assets/icons/check.svg" alt="" />
+                  <p class="ml-2 text-sm font-bold text-space-black">
+                    Snacks
+                  </p>
+                </li>
+                <li class="flex">
+                  <img src="assets/icons/check.svg" alt="" />
+                  <p class="ml-2 text-sm font-bold text-space-black">
+                    Laptop
+                  </p>
+                </li>
+                <li class="flex">
+                  <img src="assets/icons/check.svg" alt="" />
+                  <p class="ml-2 text-sm font-bold text-space-black">
+                    Wi-fi
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mt-3">
+              <button class="btn btn-black">Continue</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="sandbox.js"></script>
+  </body>
+</html>

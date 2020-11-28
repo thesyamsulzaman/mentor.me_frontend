@@ -1,0 +1,32 @@
+* {
+  border: 1px solid magenta;
+}
+/*p {*/
+  /*color: white;*/
+/*}*/
+
+/*nav {*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  /*background-color: none;*/
+  /*opacity: 0.9;*/
+  /*z-index: 9999;*/
+/*}*/
+/*.dropdown {*/
+  /*display: none;*/
+/*}*/
+
+/*.nav-show {*/
+  /*display: block;*/
+/*}*/
+
+/*.hero {*/
+  /*[>background-image: url("/img/backgroundOverlayed.jpg");<]*/
+  /*[>background-color: #2e2e36;<]*/
+  /*height: 90vh;*/
+  /*width: auto;*/
+  /*background-size: cover;*/
+  /*position: relative;*/
+/*}*/
